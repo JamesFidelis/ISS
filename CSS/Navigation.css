@@ -9,9 +9,8 @@ h4:hover{
 .rows {
     display: inline-flex;
     padding-top: 30px;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     width: 100%;
-
     flex-direction: row;
     justify-items: stretch;
     align-items: center;
