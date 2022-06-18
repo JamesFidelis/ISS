@@ -11,6 +11,7 @@ h4:hover{
     display: flex;
     padding-top: 30px;
     flex-wrap: wrap;
+    flex-direction: column;
 
 }
 
@@ -221,4 +222,6 @@ a{
 .myflex{
     display:flex;
     flex-wrap: nowrap;
+    flex-direction: column;
+    width: fit-content;
 }
