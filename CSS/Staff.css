@@ -1,6 +1,8 @@
-.staff-rows{
-display: flex;
+.staff-rowd{
+    display: flex;
     padding-right: 3%;
+    justify-items: center;
+    flex-wrap: wrap;
 }
 .row-1,.row-2{
     width: 100%;
@@ -15,4 +17,38 @@ p{
     border-bottom: 2px solid #08afec;
     border-top: 2px solid #08afec;
     border-radius: 15px;
+}
+.staff-rowd,
+.staff-rowd > .column {
+    padding: 8px;
+}
+.staff-rowd:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.staff-rowd {
+    margin: 8px -16px;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+.content {
+    background-color: white;
+    padding: 10px;
+}
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+*{
+    box-sizing: border-box;
 }

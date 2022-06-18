@@ -3,11 +3,11 @@
     margin: auto;
 
 }
-#vision{
+.vision{
     padding-top: 5%;
 
 }
-#vision:hover{
+.vision:hover{
     color: red;
 }
 .slideshow-container{
