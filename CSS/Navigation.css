@@ -6,13 +6,21 @@ h4:hover{
     text-decoration:  underline cornflowerblue ;
     text-underline-style: dash-dot-dot-heavy;
 }
-.rows{
-    display: -webkit-flex;
-    display: flex;
+.rows {
+    display: inline-flex;
     padding-top: 30px;
-    flex-wrap: wrap;
-    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
 
+    flex-direction: row;
+    justify-items: stretch;
+    align-items: center;
+
+
+}
+
+.ss{
+margin: auto;
 }
 
 .col_left, .col_right{
