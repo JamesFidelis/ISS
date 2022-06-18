@@ -1,0 +1,18 @@
+.staff-rows{
+display: flex;
+    padding-right: 3%;
+}
+.row-1,.row-2{
+    width: 100%;
+    padding-left: 3%;
+}
+p{
+    font-size: 12px;
+}
+.row-1:hover,.row-2:hover{
+    border-bottom-width: 3px;
+    border-top-width: 3px;
+    border-bottom: 2px solid #08afec;
+    border-top: 2px solid #08afec;
+    border-radius: 15px;
+}

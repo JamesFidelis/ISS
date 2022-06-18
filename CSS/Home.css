@@ -1,0 +1,16 @@
+#ourvision{
+
+    margin: auto;
+
+}
+#vision{
+    padding-top: 5%;
+
+}
+#vision:hover{
+    color: red;
+}
+.slideshow-container{
+    padding-top: 20px;
+    width: 100%;
+}
