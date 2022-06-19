@@ -1,12 +1,3 @@
-#ourvision{
-
-    margin: auto;
-
-}
-.vision{
-    padding-top: 5%;
-
-}
 .vision:hover{
     color: red;
 }
